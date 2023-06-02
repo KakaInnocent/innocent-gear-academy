@@ -11,3 +11,8 @@ gear-wasm-builder = { git = "https://github.com/gear-tech/gear.git", features = 
 
 [dev-dependencies]
 gtest = { git = "https://github.com/gear-tech/gear.git", branch = "academy-v0.1.0" }
+
+
+[advanced-hello dependencies]
+parity-scale-codec = { version = "3", default-features = false }
+scale-info = { version = "2", default-features = fa
